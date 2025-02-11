@@ -1,5 +1,6 @@
 class ARButton {
 
+	
 	static createButton( renderer, sessionInit = {} ) {
 
 		const button = document.createElement( 'button' );
