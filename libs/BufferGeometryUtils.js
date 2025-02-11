@@ -9,7 +9,7 @@ import {
 	TriangleStripDrawMode,
 	TrianglesDrawMode,
 	Vector3,
-} from 'https://miichipost.com/viewport/3DModelWeb_02/libs/three.module.js';
+} from 'https://solraczo.github.io/solarandroid/libs/three.module.js';
 
 function computeMikkTSpaceTangents( geometry, MikkTSpace, negateSign = true ) {
 
