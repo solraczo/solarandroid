@@ -2,7 +2,7 @@ import {
 	Curve,
 	Vector3,
 	Vector4
-} from 'https://miichipost.com/viewport/3DModelWeb_02/libs/three.module.js';
+} from 'https://solraczo.github.io/solarandroid/libs/three.module.js';
 import * as NURBSUtils from '../libs/NURBSUtils.js';
 
 /**
