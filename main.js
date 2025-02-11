@@ -1,5 +1,5 @@
 import * as THREE from 'https://solraczo.github.io/solarandroid/libs/three.module.js';
-import { ARButton } from 'https://cdn.jsdelivr.net/npm/three@0.153.0/examples/jsm/webxr/ARButton.js';
+import { ARButton } from 'https://solraczo.github.io/solarandroid/libs/ARButton.js';
 import { GLTFLoader } from 'https://solraczo.github.io/solarandroid/libs/GLTFLoader.js';
 import { RGBELoader } from 'https://solraczo.github.io/solarandroid/libs/RGBELoader.js';
 
