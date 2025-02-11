@@ -1,7 +1,7 @@
-import * as THREE from 'https://miichipost.com/viewport/3DModelWebAR2/libs/three.module.js';
+import * as THREE from 'https://solraczo.github.io/solarandroid/libs/three.module.js';
 import { ARButton } from 'https://cdn.jsdelivr.net/npm/three@0.153.0/examples/jsm/webxr/ARButton.js';
-import { GLTFLoader } from 'https://miichipost.com/viewport/3DModelWebAR2/libs/GLTFLoader.js';
-import { RGBELoader } from 'https://miichipost.com/viewport/3DModelWebAR2/libs/RGBELoader.js';
+import { GLTFLoader } from 'https://solraczo.github.io/solarandroid/libs/GLTFLoader.js';
+import { RGBELoader } from 'https://solraczo.github.io/solarandroid/libs/RGBELoader.js';
 
 let mixerGLTF;
 let actionsGLTF = {};
@@ -25,10 +25,8 @@ document.body.appendChild(renderer.domElement);
 if ('xr' in navigator) {
     navigator.xr.isSessionSupported('immersive-ar').then((supported) => {
         if (supported) {
-            // Crear botón AR si WebXR AR es soportado
             document.body.appendChild(ARButton.createButton(renderer, { requiredFeatures: ['hit-test'] }));
         } else {
-            // Mostrar mensaje si WebXR AR no es soportado
             alert('WebXR AR no es soportado en este dispositivo.');
         }
     }).catch((error) => {
@@ -49,7 +47,7 @@ scene.add(ambientLight);
 // Cargar HDRI como entorno
 const rgbeLoader = new RGBELoader();
 rgbeLoader.load(
-    'https://miichipost.com/viewport/3DModelWebAR2/models/brown_photostudio_02_2k.hdr',
+    'https://solraczo.github.io/solarandroid/models/brown_photostudio_02_2k.hdr',
     (texture) => {
         texture.mapping = THREE.EquirectangularReflectionMapping;
         scene.environment = texture;
@@ -63,7 +61,7 @@ rgbeLoader.load(
 // Cargar el modelo GLTF y activar todas sus animaciones en loop
 const gltfLoader = new GLTFLoader();
 gltfLoader.load(
-    'https://miichipost.com/viewport/3DModelWebAR2/models/sistema10.gltf',
+    'https://solraczo.github.io/solarandroid/models/sistema10.gltf',
     (gltf) => {
         const model = gltf.scene;
         model.scale.set(0.5, 0.5, 0.5);
