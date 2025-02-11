@@ -42,7 +42,7 @@ import {
 	Vector3,
 	Vector4,
 	VectorKeyframeTrack
-} from 'https://miichipost.com/viewport/3DModelWeb_02/libs/three.module.js';
+} from 'https://solraczo.github.io/solarandroid/libs/three.module.js';
 
 import * as fflate from '../libs/fflate.module.js';
 import { NURBSCurve } from '../libs/NURBSCurve.js';
