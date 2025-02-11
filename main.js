@@ -3,11 +3,13 @@ import { ARButton } from 'https://solraczo.github.io/solarandroid/libs/ARButton.
 import { GLTFLoader } from 'https://solraczo.github.io/solarandroid/libs/GLTFLoader.js';
 import { RGBELoader } from 'https://solraczo.github.io/solarandroid/libs/RGBELoader.js';
 
+
 let mixerGLTF;
 let actionsGLTF = {};
 let clock = new THREE.Clock();
 let modelLoaded = false;
 const animationSpeed = 0.5;
+
 
 // Escena, cámara y renderizador
 const scene = new THREE.Scene();
