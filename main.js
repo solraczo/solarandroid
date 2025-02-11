@@ -1,7 +1,7 @@
-import * as THREE from 'https://https://solraczo.github.io/solarandroid/libs/three.module.js';
+import * as THREE from 'https://solraczo.github.io/solarandroid/libs/three.module.js';
 import { ARButton } from 'https://solraczo.github.io/solarandroid/libs/ARButton.js';
-import { GLTFLoader } from 'https://https://solraczo.github.io/solarandroid/libs/GLTFLoader.js';
-import { RGBELoader } from 'https://https://solraczo.github.io/solarandroid/libs/RGBELoader.js';
+import { GLTFLoader } from 'https://solraczo.github.io/solarandroid/libs/GLTFLoader.js';
+import { RGBELoader } from 'https://solraczo.github.io/solarandroid/libs/RGBELoader.js';
 
 
 let mixerGLTF;
