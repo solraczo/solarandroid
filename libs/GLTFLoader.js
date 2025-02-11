@@ -64,7 +64,7 @@ import {
 	VectorKeyframeTrack,
 	SRGBColorSpace,
 	InstancedBufferAttribute
-} from 'https://miichipost.com/viewport/3DModelWeb_02/libs/three.module.js';
+} from 'https://solraczo.github.io/solarandroid/libs/three.module.js';
 
 import { toTrianglesDrawMode } from '../libs/BufferGeometryUtils.js';
 
